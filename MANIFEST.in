@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chandu *.css
+recursive-include chandu *.csv
+recursive-include chandu *.html
+recursive-include chandu *.ico
+recursive-include chandu *.js
+recursive-include chandu *.json
+recursive-include chandu *.md
+recursive-include chandu *.png
+recursive-include chandu *.py
+recursive-include chandu *.svg
+recursive-include chandu *.txt
+recursive-exclude chandu *.pyc
